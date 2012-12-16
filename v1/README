@@ -1,0 +1,10 @@
+*** Katta Dropbox Logger v0.1***
+
+Usage:
+  dropboxlog.py [/home/<user>]
+
+  '/home/<user>' is the directory where the 'Dropbox' and '.dropbox' folder are.
+
+Example:
+
+  python ./dropboxlog.py 

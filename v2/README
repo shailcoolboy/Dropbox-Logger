@@ -1,0 +1,19 @@
+*** Katta Dropbox Logger v0.2 ***
+
+
+Usage:
+  dropboxlog.py [/home/<USER>] <RSS_FEED_URL>
+
+  /home/<USER> : the directory where the 'Dropbox' and '.dropbox' folder are.
+  RSS_FEED_URL : Dropbox RSS feeds URL ( visit 'https://www.dropbox.com/events' to obtain the subscrition link )
+
+
+ Example:
+
+  python dropboxlog.py "https://www.dropbox.com/123456789/123456789/1abcd2ef...z9/events.xml"
+  
+  
+Dependecies:
+
+ lxml: binding for the libxml2 and libxslt libraries  ( http://lxml.de )
+ daemon: library to implement a well-behaved Unix daemon process ( http://pypi.python.org/pypi/python-daemon )

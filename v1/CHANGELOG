@@ -1,0 +1,5 @@
+ 
+v0.1
+First version:
+* this script read event from unix socket file '~/.dropbox/iface_socket' 
+  and write event on file dropbox.log in Dropbox forlder

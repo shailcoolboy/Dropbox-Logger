@@ -1,0 +1,28 @@
+*** Katta Dropbox Logger v0.3 ***
+
+
+Usage:
+  pydlog.py [-h] [--home HOME] [--logfile LOGFILE] [-d] [--logout]
+		  [--background]
+
+  Log to file Dropbox events
+
+  optional arguments:
+    -h, --help         show this help message and exit
+    --home HOME        set the user home dir (default: '~')
+    --logfile LOGFILE  set the log file (default: '~/Dropbox/dropbox.log')
+    -d, --debug        run in debug mode (more verbose)
+    --logout           logout account removing application file stored in home
+		      directory
+    --background       fork to background
+
+
+
+ Example:
+
+  python pydlog.py --logfile ~/dropbox.log --background
+  
+  
+Dependecies:
+
+ daemon: library to implement a well-behaved Unix daemon process ( http://pypi.python.org/pypi/python-daemon )
