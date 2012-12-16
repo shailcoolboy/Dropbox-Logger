@@ -8,7 +8,7 @@ v0.2
 ----
 * in this version when a event was annunce on socket '~/.dropbox/iface_socket'
   the script parse RSS feeds and write changes on 'Dropbox/dropbox.log' file
-### KNOWN ISSUES: ### 
+> KNOWN ISSUES: 
 * Dropbox si incazza causando un sovraccarico della cpu (O.o)
 
 v 0.3
